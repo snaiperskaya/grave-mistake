@@ -13,17 +13,16 @@
     "sources": "https://github.com/snaiperskaya/grave-mistake"
   },
 
-  "license": "CC0-1.0",
+  "license": "GPL-1.0",
   "icon": "assets/gravemistake/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.snaiperskaya.gravemistake.modBase"
+      "net.snainet.gravemistake.graveMistake"
     ]
   },
   "mixins": [
-    "gravemistake.mixins.json"
   ],
 
   "depends": {
