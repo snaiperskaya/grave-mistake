@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "gravemistake",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Grave Mistake",
+  "description": "This is a mediocre++ gravestone mod (hopefully)",
   "authors": [
-    "Me!"
+    "snaiperskaya"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/snaiperskaya/grave-mistake"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/gravemistake/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.snaiperskaya.gravemistake.modBase"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "gravemistake.mixins.json"
   ],
 
   "depends": {
